@@ -25,6 +25,7 @@ gem 'devise', '~> 3.5', '>= 3.4.1'
 gem 'simple_form', '~> 3.0.2'
 gem 'haml', '~> 4.0.5'
 gem 'puma'
+gem 'pg'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -46,11 +47,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'pry'
-  gem 'sqlite3'
+  #gem 'sqlite3'
 end
 
 group :production do
-	gem 'pg'
+	#gem 'pg'
 	gem 'rails_12factor'
 end
 
